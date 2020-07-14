@@ -1,0 +1,180 @@
+/* HTML ELEMENTS SECTION */
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 50px auto -30px auto;
+    font-family: 'sacramento', sans-serif;
+    font-size: 5rem;
+    color: #66bfbf;
+    line-height: 2em;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #66bfbf;
+    font-family: monospace;
+    font-weight: normal;
+    line-height: 2em;
+}
+
+h3 {
+    color: #11999E;
+    font-family: monospace;
+    font-size: 1.5em;
+    position: relative;
+}
+
+p {
+    line-height: 2em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+hr {
+    border-color: #bbbbbb;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 7px;
+    height: 7px; 
+    width: 10%;
+}
+
+a {
+    color: #11999e;
+    margin: 10px 10px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #eaf6f6;
+}
+/* HTML CLASS SECTION */
+  
+.top-cloud {
+    height: 50px;
+    position: relative;
+    top: 10px;
+    left: 190px;
+    margin-bottom: 10px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    height: 50px;
+    display: inline-block;
+  
+}
+
+.top-container {
+    background-color: #e4f9f5;
+    padding-top: 30px;
+}
+
+.middle-container {
+
+}
+
+.bottom-container {
+    font-family: 'Montserrat','Subrayada', sans-serif;
+    background-color: #66bfbf;
+    padding: 50px 0 20px;
+    margin-top: -30px;
+}
+
+.skill-row {
+    width: 50%;
+    font-size: 1em;
+    margin: 10px auto 10px auto;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.skills-img {
+    height: 150px;
+    width: 150px;
+}
+
+.skills {
+    size: 15%;
+    
+}
+
+.profile {
+    width: 50%;
+    size: 15%;
+    margin: 10px auto 10px auto;
+}
+
+.profile-description {
+    text-align: center;
+    clear: left;
+    margin: 0 auto 40px auto;
+    width: 90%;
+}
+
+.profile-image {
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.profile-pic {
+    width: auto;
+    height: 100%;
+    margin-left: -35px;
+}
+
+
+/* copied from cssbuttoncreator.com */
+
+.contact-button {
+   background: #11CDD4;
+   background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+   background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   color: #FFFFFF;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 13px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin-bottom: 80px;
+   padding-left: 20px;
+   padding-right: 20px;
+}
+
+.contact-button:hover {
+   border: solid #2BC4AD 0px;
+   background: #30E3CB;
+   background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   text-decoration: none;
+}
+
+.copyright {
+    color: #eaf6f6;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.9em;
+    padding: 20px 0;
+}
